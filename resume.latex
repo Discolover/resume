@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\usepackage{tabularx}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\pagenumbering{gobble}
+
+\usepackage[margin=1in,top=0.7in]{geometry}
+
+
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries
+\theauthor}
+
+\vspace{0.5em}
+
+\large \faLinkedin \hspace{0.25em} \url{https://www.linkedin.com/in/aseni-semeniaka-455531280/} \\
+\large \faGithub \hspace{0.25em} \url{https://github.com/Discolover}\\
+\large \faEnvelopeO \hspace{0.25em} \href{mailto:aseminiako@gmail.com}{aseminiako@gmail.com} \\
+\end{center}
+}
+
+\renewcommand{\arraystretch}{1.25}
+
+\begin{document}
+\title{R\'esum\'e}
+\author{Arseni Semeniaka}
+
+\maketitle
+
+\section*{Employment}
+\begin{tabularx}{\textwidth} { 
+	>{\raggedright\arraybackslash}X 
+	>{\centering\arraybackslash}X
+	>{\raggedleft\arraybackslash}X
+}
+\hline
+EPAM Systems                          &  & Mar 2021 -- Present     \\
+\hline
+\hline
+
+Environments support engineer &  & \small Mar 2021 -- \small Oct 2021     \\
+\hline
+\multicolumn{3}{m{\textwidth}}{
+\begin{itemize}
+\item Created several internal tools written in \emph{Bash} or \emph{Python}.
+\item Worked on an \emph{Kubernetes as a Service} service.
+\item Many closed tickets and happy customers.
+\end{itemize}
+}                                                               \\
+
+Build Engineer              & VTB Bank & \small Oct 2021 -- \small Mar 2022 \\
+\hline
+\multicolumn{3}{m{\textwidth}}{
+\begin{itemize}
+\item Worked on improving an authentication process for a bank's API Gateway using JWTs.
+\item Improved and extended \emph{CI/CD} processes.
+\end{itemize}
+}                                                               \\
+
+DevOps Engineer               & GreenSky & \small May 2022 -- \small Present  \\
+\hline
+\multicolumn{3}{m{\textwidth}}{
+\begin{itemize}
+\item Migrated a \emph{Jenkins} pipeline for a project's service to \emph{GitLab CI/CD} pipelines.
+\item Created a pipeline which deploys a main service to \emph{ECS} using \emph{CloudFormation}.
+\item Worked on a data router/aggregator service written in \emph{Java} and \emph{Lua}.
+\end{itemize}
+}                                                               \\
+\end{tabularx}
+
+\section*{Education}
+\begin{tabularx}{\textwidth} { 
+	>{\raggedright\arraybackslash}X 
+	>{\raggedleft\arraybackslash}X
+}
+
+\hline
+Belarussian State Academy of Communications & \small Sep 2017 -- Apr 2021 \\
+	\multicolumn{2}{l}{ \emph{Bachelor in Telecommunications Networks}} \\
+
+\end{tabularx}
+
+
+\section*{Languages and Technologies}
+\begin{itemize}
+\item Python; Go; Posix Shell; Bash; Java; C; Lua
+\item Linux; Kubernetes; Docker; AWS; Ansible; Jenkins; GitLab CI/CD; JFrog Artifactory
+\item MongoDB; Microsoft SQL Server
+\end{itemize}
+
+
+
+\end{document}
